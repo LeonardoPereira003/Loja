@@ -28,9 +28,12 @@ body {
 }
 .inicio li a{
     text-decoration: none;
+    color:#ccc;
 }
 
 header {
+    max-width: 100%;
+    width: 100%;
     background: #000000;
     border-bottom: 2px solid #ccc;
     border-radius: 10px;
@@ -75,7 +78,7 @@ header {
 
 .produto {
     max-width: 100%;
-    width: 400px;
+    width: 350px;
     border: 3px solid blueviolet;
     border-radius: 15px;
     padding: 10px;
