@@ -5,7 +5,9 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Space Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
     color: #ccc;
     margin: 0;
     padding: 0;
@@ -28,9 +30,15 @@ body {
 }
 .inicio li a{
     text-decoration: none;
+    color:#ccc;
 }
 
 header {
+    font-family: "Space Mono", monospace;
+    font-weight: 700;
+    font-style: italic;
+    max-width: 100%;
+    width: 100%;
     background: #000000;
     border-bottom: 2px solid #ccc;
     border-radius: 10px;
@@ -75,7 +83,7 @@ header {
 
 .produto {
     max-width: 100%;
-    width: 400px;
+    width: 350px;
     border: 3px solid blueviolet;
     border-radius: 15px;
     padding: 10px;
